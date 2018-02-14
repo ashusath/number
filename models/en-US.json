@@ -1,0 +1,46 @@
+{
+    "interactionModel":{
+        "languageModel":{
+            "invocationName":"number",
+            "types":[],
+            "intents":[
+                {
+                  "name": "AMAZON.CancelIntent",
+                  "samples": []
+                },
+                {
+                  "name": "AMAZON.HelpIntent",
+                  "samples": []
+                },
+                {
+                  "name": "AMAZON.StopIntent",
+                  "samples": []
+                },
+                {
+                    "name":"HelloWorldIntent",
+                    "slots":[
+
+                    ],
+                    "samples":[
+                        "hello",
+                        "say hello",
+                        "say hello world"
+                    ]
+                },
+                {
+                    "name":"GetTableOfIntent",
+                    "slots":[
+                        {
+                            "name":"table_of",
+                            "type":"AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples":[
+                        "get table of {table_of}",
+                        "table for {table_of}"
+                    ]
+                }
+            ]
+        }
+    }
+}
