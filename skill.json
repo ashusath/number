@@ -5,7 +5,7 @@
         "en-US": {
           "summary": "Sample Short Description",
           "examplePhrases": [
-            "Alexa open hello world",
+            "Alexa open number",
             "Alexa tell hello world I am Jeff",
             "Alexa tell hello world my name is Peter"
           ],

@@ -22,8 +22,8 @@ var handlers = {
         this.emit('SayTable');
     },
     'SayHello': function () {
-        this.response.speak('Hello World!')
-                     .cardRenderer('hello world', 'hello world');
+        this.emit(':tell', "You can use number by asking get table for two");
+
         this.emit(':responseReady');
     },
     'SayTable': function () {

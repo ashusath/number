@@ -1,4 +1,4 @@
-# number
+# Number
 Simple alexa skill to play with number
 
 ## To get table of number
